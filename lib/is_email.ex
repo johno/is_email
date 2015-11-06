@@ -15,6 +15,6 @@ defmodule IsEmail do
   Returns a boolean.
   """
   def validate(email) do
-    String.match?(email, ~r/.+@.+\..+/)
+    String.match?(email, ~r/.+@.+/)
   end
 end

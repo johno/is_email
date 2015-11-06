@@ -18,8 +18,7 @@ defmodule IsEmailTest do
   test "returns false for invalid emails" do
     invalid_emails = [
       "johnotander@",
-      "@foo",
-      "o@.g"
+      "@foo"
     ]
 
     for email <- invalid_emails do
